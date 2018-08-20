@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TF2 S.T.A.R.S. Options</title>
+</head>
+<script src="utils.js"></script>
+
+<body>
+    <div>
+        <label>
+            <input type="checkbox" id="etf2l_update"> Update ETF2L
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" id="ugc_update"> Update UGC
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" id="steam_update"> Update Steam
+        </label>
+    </div>
+    <hr>
+    <div>
+        <label>
+            <input type="checkbox" id="tf2c_show"> Show TF2Center
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" id="logstf_show"> Show Logs.tf
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" id="steam_show"> Show Steam
+        </label>
+    </div>
+    <hr> Keep cache
+    <select id="cache_days">
+        <option value="1">1</option>
+        <option value="3">3</option>
+        <option value="7">7</option>
+        <option value="14">14</option>
+    </select>
+    days
+    <button id="clear" style="float: right;">Clear cache</button>
+    <hr>
+    <div>
+        <label>
+            <input type="range" id="sound_volume"> Sound volume
+        </label>
+    </div>
+    <hr>
+    <div id="status"></div>
+    <button id="save">Save</button>
+    <script src="options.js"></script>
+</body>
+
+</html>
